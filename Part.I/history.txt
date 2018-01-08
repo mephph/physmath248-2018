@@ -1,0 +1,176 @@
+    1  ls .ssh
+    2  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    3  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    4  ls
+    5  tar -xzvf ini.tgz 
+    6  cp -rf ini/.ssh ~/
+    7  cp -rf ini/.gitconfig ~/
+    8  ls
+    9  ls
+   10  top
+   11  man bash
+   12  pwd
+   13  history
+   14  history > history.txt
+    1  ls .ssh
+    2  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    3  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    4  ls
+    5  tar -xzvf ini.tgz 
+    6  cp -rf ini/.ssh ~/
+    7  cp -rf ini/.gitconfig ~/
+    8  ls
+    9  ls
+   10  ls
+   11  ls
+   12  cd physmath248-2018/
+   13  ls
+   14  ls ~/.gitconfig 
+   15  ls ~/.ssh/
+   16  ls
+   17  git pull
+   18  pwd
+   19  cd
+   20  ls
+   21  cd ttt
+   22  ls
+   23  less ~/.bashrc 
+   24  ed
+   25  ed
+   26  cd ttt/
+   27  ls
+   28  ed f.txt
+   29  ls
+   30  rm f.txt
+   31  ls
+   32  rm -i t.t
+   33  . ~/.bashrc 
+   34  alias rm
+   35  ls
+   36  rm c.c
+   37  rm -f c.c
+   38  ls
+   39  cd
+   40  ls
+   41  less ~/.gitconfig 
+   42  ls .ssh
+   43  mv .ssh .ssh_fherwig
+   44  mkdir .ssh
+   45  cd .ssh
+   46  ssh-keygen 
+   47  ls
+   48  cat id_rsa
+   49  cat id_rsa.pub 
+   50  ls
+   51  pwd
+   52  pwd
+   53  history
+   54  history >> ~/history.txt 
+    1  ls .ssh
+    2  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    3  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    4  ls
+    5  tar -xzvf ini.tgz 
+    6  cp -rf ini/.ssh ~/
+    7  cp -rf ini/.gitconfig ~/
+    8  ls
+    9  ls
+   10  top
+   11  man bash
+   12  pwd
+   13  history
+   14  history > history.txt
+   15  ls
+   16  less history.txt 
+   17  ls
+   18  man ls
+   19  ls -a
+   20  man ls
+   21  ls -at
+   22  ls -lat
+   23  cd physmath248-2018/
+   24  ls
+   25  pwd
+   26  cd
+   27  back
+   28  cd physmath248-2018/
+   29  cd .
+   30  cd ..
+   31  mkdir ttt
+   32  ls -lat
+   33  ls -d
+   34  ls -lat
+   35  cd ttt/
+   36  touch t.t
+   37  ls
+   38  ls -lat
+   39  cp t.t a.a
+   40  ls
+   41  mv a.a b.b
+   42  ls
+   43  rm b.b 
+   44  cat > b.b
+   45  cat b.b
+   46  cat > b.b
+   47  cat b.b
+   48  cat >> b.b
+   49  cat b.b
+   50  ls
+   51  du -sh *
+   52  cat b.b
+   53  cat > c.c
+   54  ls
+   55  less t.t
+   56  cat c.c 
+   57  cat b.b 
+   58  cat b.b c.c > f.f
+   59  less f.f 
+   60  df -h
+   61  ls
+   62  grep ano f.f
+   63  cat c.c
+   64  cat b.b
+   65  grep ano b.b
+   66  wc f.f
+   67  less f.f
+   68  emacs f.f
+   69  mv f.f f.txt
+   70  emacs f.txt
+   71  emacs f.txt
+   72  nano f.txt
+   73  astr="abc def 123"
+   74  echo $astr
+   75  echo $astr" is variable
+"
+   76  echo $astr" is variable"
+   77  nname=$astr" is variable"
+   78  echo $nname
+   79  for name in $nname; do  echo $name; done
+   80  for name in $nname; do  touch $name; done
+   81  ls
+   82  for name in $nname; do  rm $name; done
+   83  echo $nname
+   84  set -- $nname
+   85  echo $1
+   86  echo $2
+   87  wc f.f
+   88  wc f.txt
+   89  wcout=`wc f.txt`
+   90  echo $wcout 
+   91  set -- $wcout 
+   92  num_lines=$1
+   93  echo The number of lines in file f.txt is $num_lines 
+   94  ssh fherwig@cedar.computecanada.ca
+   95  cd
+   96  ls
+   97  cd physmath248-2018/
+   98  ls
+   99  cd Part.I/
+  100  lks
+  101  ls
+  102  ls
+  103  cd
+  104  less .bashrc
+  105  less ~/.bashrc
+  106  history
+  107  history >> ~/history.txt 
