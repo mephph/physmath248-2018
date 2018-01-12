@@ -174,3 +174,195 @@
   105  less ~/.bashrc
   106  history
   107  history >> ~/history.txt 
+    1  ls .ssh
+    2  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    3  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    4  ls
+    5  tar -xzvf ini.tgz 
+    6  cp -rf ini/.ssh ~/
+    7  cp -rf ini/.gitconfig ~/
+    8  ls
+    9  ls
+   10  ls
+   11  ls
+   12  cd physmath248-2018/
+   13  ls
+   14  ls ~/.gitconfig 
+   15  ls ~/.ssh/
+   16  ls
+   17  git pull
+   18  pwd
+   19  cd
+   20  ls
+   21  cd ttt
+   22  ls
+   23  less ~/.bashrc 
+   24  ed
+   25  ls
+   26  cd cd math-phys.248-2017/
+   27  cd math-phys.248-2017/
+   28  git_log 
+   29  cd
+   30  alias git_log
+   31  alias
+   32  emacs test_alias.sh
+   33  ls -lat
+   34  ssh fherwig@cedar.computecanada.ca
+   35  ls
+   36  ls -lat
+   37  ./test_alias.sh
+   38  chmod u+x test_alias.sh 
+   39  ls -lat
+   40  ./test_alias.sh 
+   41  emacs ~/.bashrc
+   42  . ~/.bashrc
+   43  echo $EDITOR
+   44  cd physmath248
+   45  cd physmath248-2018/
+   46  ls
+   47  ed t.t 
+   48  git add t.t 
+   49  git commit
+   50  git push
+   51  cd
+   52  ed test_alias.sh 
+   53  exho $EDITOR
+   54  echo $EDITOR
+   55  echo EDITOR
+   56  echo $EDITOR
+   57  less test_alias.sh
+   58  ./test_alias.sh
+   59  export EDITOR="emacs -nw"
+   60  ./test_alias.sh
+   61  ed ~/.bashrc
+   62  cat ./test_alias.sh
+   63  ./test_alias.sh
+   64  echo Hello
+   65  echo Hello$EDITOR
+   66  ls
+   67  ls -1
+   68  echo `ls -1`
+   69  names=`ls -1`
+   70  echo $names
+   71  for name in $names:; echo $name
+   72  for name in $names; echo $name
+   73  for name in $names; do echo $name; done
+   74  history
+   75  pwd
+   76  history >> physmath248-2018/Part.I/history.txt 
+    1  ls .ssh
+    2  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    3  scp fherwig@aquila.phys.uvic.ca:ini.tgz .
+    4  ls
+    5  tar -xzvf ini.tgz 
+    6  cp -rf ini/.ssh ~/
+    7  cp -rf ini/.gitconfig ~/
+    8  ls
+    9  ls
+   10  ls
+   11  ls
+   12  cd physmath248-2018/
+   13  ls
+   14  ls ~/.gitconfig 
+   15  ls ~/.ssh/
+   16  ls
+   17  git pull
+   18  pwd
+   19  cd
+   20  ls
+   21  cd ttt
+   22  ls
+   23  less ~/.bashrc 
+   24  ed
+   25  cd
+   26  ls
+   27  rm -rf *
+   28  scp -r fherwig@aquila.phys.uvic.ca:ini 
+   29  scp -r fherwig@aquila.phys.uvic.ca:ini  .
+   30  ./ini/ini.sh
+   31  cd
+   32  ls .ssh
+   33  rm -rf .ssh/
+   34  cd
+   35  cd
+   36  mkdir .ssh
+   37  cd .ssh/
+   38  ls
+   39  ssh-keygen 
+   40  ls
+   41  cat id_rsa.pub 
+   42  cat id_rsa.pub 
+   43  cd
+   44  pwd
+   45  less .gitconfig 
+   46  cd
+   47  mkdir tmp
+   48  cd tmp/
+   49  git clone git@bitbucket.org:physma/mp248
+   50  ls
+   51  cd mp248/
+   52  cat > README.md
+   53  git status
+   54  git add README.md 
+   55  git status
+   56  git commit -m 'add README.md'
+   57  git status
+   58  git push
+   59  pip install astropy
+   60  pip install --user astropy
+   61  ls
+   62  cd
+   63  ls
+   64  ls ~/.local/
+   65  ls ~/.local/bin/
+   66  ls
+   67  cd physmath248-2018/
+   68  git pull
+   69  cd
+   70  ls .ssh
+   71  rm -rf .ssh
+   72  ls
+   73  cp Untitled.ipynb t.t
+   74  ls -lat
+   75  ls -lat
+   76  ls -at
+   77  ls -lt
+   78  date
+   79  ls
+   80  scp -r fherwig@aquila.phys.uvic.ca:ini 
+   81  scp -R fherwig@aquila.phys.uvic.ca:ini  .
+   82  scp -r fherwig@aquila.phys.uvic.ca:ini  .
+   83  ls
+   84  emacs ini/ini.sh
+   85  ls .ssh
+   86  emacs ini/ini.sh
+   87  ./ini/ini.sh
+   88  ls -lat .gitconfig 
+   89  less .gitconfig 
+   90  ls .ssh
+   91  cd
+   92  ls
+   93  cd physmath248-2018/
+   94  cd
+   95  cd physmath248-2018/
+   96  git pull
+   97  ls
+   98  cat  > t.t
+   99  git status
+  100  git add t.t
+  101  git status
+  102  git commit -m 'this is a demo'
+  103  git status
+  104  git push
+  105  git log --all --oneline --decorate --graph
+  106  less ~/.bashrc 
+  107  ls
+  108  ls ~
+  109  cd
+  110  rm t.t
+  111  ed ~/.bashrc 
+  112  git_log
+  113  echo Hello
+  114  echo $EDITOR" this was my variable"
+  115  history
+  116  history >> ~/physmath248-2018/Part.I/history.txt 
